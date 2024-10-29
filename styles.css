@@ -1,0 +1,134 @@
+* { /*(*):estilização geral - sem margem e sem preenchimento*/ 
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /*texto*/
+    background-color: #f4f4f4; /*fundo*/
+    background-image: url('https://telemedicinamorsch.com.br/wp-content/uploads/2021/07/4-beneficios-da-medicina-diagnostica-integrada-com-a-Telemedicina-Morsch.jpeg');
+    background-size: cover; /* página inteira */
+    background-repeat: no-repeat; /* não repete a foto */
+    background-position: center;
+    background-attachment: fixed; /* fundo fixo */
+}
+
+.logo {
+    padding-left: 25px;
+}
+
+header {
+    background: rgb(133, 205, 133);
+    color: rgb(19, 81, 50);
+    padding: 10px 0;
+    
+    text-align: right;
+}
+
+header .logo {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: black;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cta-button { 
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grupo_editado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grupo_editado div {
+    flex: 1; /* iguala o espaço para os campos */
+    margin-right: 10px; /* espaço */
+}
+
+.grupo_editado div:last-child {
+    margin-right: 0; /* margem direita */
+}
+
+#nome,
+#tipo_sanguineo,
+#genero,
+#cpf,
+#rg,
+#data_nascimento,
+#endereco,
+#telefone{
+    width: 100%; /* alinhamento das caixas */
+}
+
+.servico {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 0px 0;
+    background: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#contato {
+    margin: 5px 0;
+    padding: 10px;
+    background: black;
+}
